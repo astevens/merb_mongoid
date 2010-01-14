@@ -1,0 +1,18 @@
+= merb_mongoid
+
+A plugin for the Merb framework that provides support for MongoID Models.
+
+== Connection options
+
+Merb MongoID plugin uses config/database.yml for connection configuration.
+
+Options are:
+
+- `host` provide a string or an array of strings to attempt connections with
+- `database`
+
+It's more or less than a copy/paste for MongoID of shingara/merb_mongomapper.
+
+== Copyright
+
+Copyright (c) 2010 Jordan Bracco. See LICENSE for details.
